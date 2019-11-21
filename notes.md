@@ -204,6 +204,8 @@ this is what we install:
 ```bash
 npm i validator
 ```
+
+look at docs for avaliable methods
 good stuff
 
 ### 12. [Printing in color](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/learn/lecture/13728850#content)
@@ -214,13 +216,53 @@ good stuff
 npm install
 ```
 
+[chalk](https://www.npmjs.com/package/chalk)
+
+Challenge: use the chalk library in your project
+
+1. isntall chalk
+1. load chalk into app.js
+1. print the string 'success' to the console in green
+1. test it
+
+bonus: play with the styles
 
 
+### 13. [Global npm modules and nodemon](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/learn/lecture/13728856#content "7:22")
+
+check out the file bro...
+
+End of the section. This was the foundation
+
+## Section 4 File System and CL Args (Notes App)
+
+### 14. [Section Intro: File System and CL args](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/learn/lecture/13728862#content "0:55")
+
+focus is on the file system and command line args..cool
+
+### 15. [Getting input from the user](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/learn/lecture/13728868#content "9:45")
+
+```
+[notes-app (master)]$ node app.js 
+Your Notes ...
+true
+success
+test error
+[notes-app (master)]$ node app.js andrew
+Your Notes ...
+true
+success
+test error
+[notes-app (master)]$ 
+```
+
+reference `process` global variable from [Section 2](#section-2-installing-and-exploring-nodejs) find actual section!!!
+
+log `process.argv` to the [terminal](section4/notes-app/app.js)
+
+argv stands for argument vector.
 
 
-look at docs for avaliable methods
+look for npm package to parse process.argv in the next section
 
-
-
-
-
+### 16. []

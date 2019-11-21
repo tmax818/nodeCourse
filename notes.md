@@ -153,5 +153,19 @@ Challenge: Append a message to [notes.txt](section3/notes-app/notes.txt)
 
 3. check you work my opening the [file](section3/notes-app/notes.txt)
 
-here is my [solution](section3/notes-app/challenge.js). Nice!
+here is my [solution](section3/challenge.js). Nice!
+
+### 10. [Importing Your Own Files](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/learn/lecture/13728846?start=15#content)
+
+use multiple files for expansion and mantenence. 
+
+
+
+Challenge:
+
+1. create a new file `notes.js`
+1. create getNotes function that returns "Your Notes ..."
+1. export the getNotes function
+1. From app.js, load in and call the function printing the message
+
 

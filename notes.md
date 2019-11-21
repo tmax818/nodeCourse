@@ -159,7 +159,27 @@ here is my [solution](section3/challenge.js). Nice!
 
 use multiple files for expansion and mantenence. 
 
+[utils.js](section3/notes-app/utils.js):
 
+```js
+const add = function(a, b){
+    return a + b
+}
+
+// each file has it's own scope so it must export
+module.exports = add
+```
+What is exported is imported with the `require()` function
+
+[app10.js](section3/notes-app/app10.js)
+
+```js
+const add = require('./utils.js')
+
+const sum = add(4, -2)
+
+console.log(sum)
+```
 
 Challenge:
 
@@ -167,5 +187,40 @@ Challenge:
 1. create getNotes function that returns "Your Notes ..."
 1. export the getNotes function
 1. From app.js, load in and call the function printing the message
+
+
+### 11. [Importing npm modules](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/learn/lecture/13728848#content "16:57")
+
+endless amount of awesome npm packages: all kinds of shit!
+
+must run `npm init` from the root of the project. creates a config file ie `package.json`
+
+It manages dependencies!!
+
+this is what we install:
+
+- [validator](https://www.npmjs.com/package/validator)
+
+```bash
+npm i validator
+```
+good stuff
+
+### 12. [Printing in color](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/learn/lecture/13728850#content)
+
+`node_modules` can be constructed from `package.json`. Delete the file and run:
+
+```sh
+npm install
+```
+
+
+
+
+
+look at docs for avaliable methods
+
+
+
 
 

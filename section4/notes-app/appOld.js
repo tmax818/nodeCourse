@@ -16,4 +16,8 @@ console.log(validator.isEmail('tmax818@mac.com'))
 console.log(chalk.green('success'))
 console.log(chalk.red.inverse('test error'))
 
+console.log(process.argv)
+console.log(process.argv[2])
+
+
 

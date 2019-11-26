@@ -1,4 +1,4 @@
-const chalk = require('node_modules')
+const chalk = require('chalk')
 
 // playing
 
